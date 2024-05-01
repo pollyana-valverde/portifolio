@@ -1,0 +1,135 @@
+/* cores prontas */
+
+:root {
+  
+    --bg-gradient-orange: linear-gradient(
+        to bottom right, 
+        #FF8800 3%, 
+        #FF9500 97%
+      );
+      --bg-gradient-light-yellow: linear-gradient(
+        to bottom right, 
+        #FFF2B2 0%, 
+        #FFEE99 100%
+      ), hsl(240, 2%, 13%);
+      --bg-gradient-orange-yellow: linear-gradient(
+        to bottom right, 
+        #FF8800 0%, 
+        #FFE97F 50%
+      );
+      --bg-gradient-light-yellow-2: linear-gradient(
+        135deg, 
+        #FFEE99   0%, 
+        #FFF2B2 59.86%
+      ), hsl(240, 2%, 13%);
+      --bg-gradient-orange-yellow-2: linear-gradient(
+        to bottom right, 
+        #FFB700 0%, 
+        #FFE97F  50%
+      );
+      --text-gradient-yellow: linear-gradient(
+        to right, 
+        hsl(45, 100%, 72%), 
+        hsl(35, 100%, 68%)
+      );
+    
+      /* solid */
+      --light-orange:#FFEE99;
+      --light-yellow: #FFF2B2;
+      --just-white: #FFF6CC;
+      --intense-orange: #FF7B00;
+        --border-orange: #FF7B00;
+      --orange-lil-light: #FFA200;
+      --vegas-gold: #FFC300;
+      --dark-orange: #b56408;
+      --dark-orange-70: #FF8800;
+      --bittersweet-shimmer: red;
+
+
+  
+    /* font-family */
+    --ff-poppins: 'Poppins', sans-serif;
+  
+    /* font-size */
+    --fs-1: 24px;
+    --fs-2: 18px;
+    --fs-3: 17px;
+    --fs-4: 16px;
+    --fs-5: 15px;
+    --fs-6: 14px;
+    --fs-7: 13px;
+    --fs-8: 11px;
+  
+    /* font-weight */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+  
+    /* shadow
+     */
+    
+    --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+    --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+    --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
+    --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
+    --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
+  
+    /* transition
+     */
+  
+    --transition-1: 0.5s ease;
+    --transition-2: 0.5s ease-in-out;
+  
+  }
+
+
+
+  /* tema escuro */
+
+  [data-theme="dark"]{
+
+       --bg-gradient-orange: linear-gradient(
+      to bottom right, 
+      #012A4A 3%, 
+      #013A63 97%
+    );
+    --bg-gradient-light-yellow: linear-gradient(
+      to bottom right, 
+      #013A63 0%, 
+      #012A4A 100%
+    ), hsl(240, 2%, 13%);
+    --bg-gradient-orange-yellow: linear-gradient(
+      to bottom right, 
+      #000814 0%, 
+      #01497C 50%
+    );
+    --bg-gradient-light-yellow-2: linear-gradient(
+      135deg, 
+      #012A4A   0%, 
+      #013A63 59.86%
+    ), hsl(240, 2%, 13%);
+    --bg-gradient-orange-yellow-2: linear-gradient(
+      to bottom right, 
+      #013A63 0%, 
+      #01497C  50%
+    );
+    --text-gradient-yellow: linear-gradient(
+      to right, 
+      #2C7DA0, 
+      #014F86
+    );
+  
+    /* solid */
+    --light-orange: #00243f;
+    --light-yellow: #012A4A;
+    --just-white: #001d3d;
+    --intense-orange: #89C2D9;
+    --border-orange: #000814;
+    --orange-lil-light: #2A6F97;
+    --vegas-gold: #2C7DA0;
+    --dark-orange: #61A5C2;
+    --dark-orange-70: #89C2D9;
+    --bittersweet-shimmer: red;
+
+  } 
